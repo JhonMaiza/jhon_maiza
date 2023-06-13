@@ -2,6 +2,22 @@
 /* {border: 1px solid #ff0000}*/
 
 body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+@font-face {
+    font-family:'Romanesco';
+    src: url('./Romanesco-Regular.ttf');
+}
+@font-face {
+    font-family:'Inter-Regular';
+    src: url('./Inter-Regular.ttf');
+}
+@font-face {
+    font-family:'Inter-SemiBold';
+    src: url('./Inter-SemiBold.ttf');
+}
+@font-face {
+    font-family:'Inter-Bold';
+    src: url('./Inter-Bold.ttf');
+}
 
 /* Header */
 header {height: 70px; display: flex; align-items: center; justify-content: space-between; }
@@ -18,8 +34,8 @@ nav ul li:hover, header span:hover{color: #FFFF00;}
 
 /* Sección 1 */
 #seccion1 {position: relative;}
-#imagen-principal {width: 100%; height: auto;}
-.encima {position: absolute; top: 115px; left: 130px; padding: 10px;}
+#imagen-principal {width: 100%; height: auto; display: block;}
+.encima {position:absolute; top: 115px; left: 130px; padding: 10px;}
 .fuente-romanesco {font-family: 'Romanesco'; font-size: 96px;}
 
 /* Sección 2 */
@@ -31,19 +47,17 @@ nav ul li:hover, header span:hover{color: #FFFF00;}
 
 /* Sección 3 */
 #seccion3 {display: flex; justify-content: center; }
-.tarjeta {width: 290px; display: inline-block; margin-right: 134px; margin-top:100px;margin-bottom: 50px;}
+.tarjeta {width: 295px; display: inline-block; margin-right: 134px; margin-top:100px;margin-bottom: 50px;}
 .titulo-servicio {height: 75px; display: flex; align-items: center; justify-content: center;
-    background-color:#A3A658 ; border-radius: 15px 15px 0 0; 
-    font-family: 'Inter', sans-serif; font-weight:600; font-size: 32px; color: #FFFFFF;}
-.tarjeta2 {width: 290px; display: inline-block; margin-top:100px; margin-bottom: 50px;}
-.imagen-servicio {width: 100%;}
+    background-color:#A3A658 ; border-radius: 15px 15px 0 0; color: #FFFFFF;}
+.tarjeta2 {width: 295px; display: inline-block; margin-top:100px; margin-bottom: 50px;}
 .tarjeta img {width: 100%; height: auto;}
 .tarjeta2 img {width: 100%; height: auto;}
-#seccion3 span {margin-left: 15px;} /* font-weight: bold; font-size: 25px;*/
-.boton-reserar {width: 140px; height: 50px; display: flex; align-items: center; justify-content: center;
+#seccion3 span {margin-left: 15px;}
+.boton-reservar {width: 140px; height: 50px; display: flex; align-items: center; justify-content: center;
     background-color: #A3A658; border-radius: 35px;}
 a {color: #FFFFFF; text-decoration: none;}
-.boton-reserar:hover {background-color: #384001;}
+.boton-reservar:hover {background-color: #384001;}
 .tarjeta-precio {margin-top: 15px; display: flex; align-items: center; justify-content: space-between;}
 
 /* Sección 4 */
@@ -52,9 +66,9 @@ a {color: #FFFFFF; text-decoration: none;}
 #beneficios {display: flex; justify-content: space-around;}
 .beneficio {width: 300px;display: flex; flex-direction: column; align-items: center;}
 .imagen-beneficio {width: 233px; height: 233px; overflow: hidden; border-radius:  50%; 
-    display: flex; align-items: center;  justify-content: center; border: 11px solid  #384001;}
+    display: flex; align-items: center;  justify-content: center; border: 11px solid  #384001;  background-color: #FFFFFF;}
 .imagen-beneficio img {width: 50%; height: auto; object-fit: cover; }
-.boton-condiciones {width: 300px; height: 40px; background-color: #A3A658; border-radius: 35px;
+.boton-condiciones {width: 300px; height: 50px; background-color: #A3A658; border-radius: 35px;
     margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: center; align-items: center;}
 .boton-condiciones:hover {background-color: #384001;}
 
@@ -70,10 +84,10 @@ footer li:hover {color: #FFFF00;}
 .color1 {background-color: #A3A658;}
 .color2 {background-color: #F2F6F6;}
 
-.titulo1 {font-family: 'Inter', sans-serif; font-weight: bold; font-size: 48px;}
-.titulo2 {font-family: 'Inter', sans-serif; font-weight:600; font-size: 32px;}
-.miniatura {font-family: 'Inter', sans-serif; font-size: 14px;}
+.titulo1 {font-family: 'Inter-Bold', sans-serif; font-size: 48px;}
+.titulo2 {font-family: 'Inter-SemiBold', sans-serif; font-size: 32px;}
+.miniatura {font-family: 'Inter-Regular', sans-serif; font-size: 14px;}
 
-.menu {font-family: 'Inter', sans-serif; font-size: 16px;text-transform: uppercase;}
-.normal {font-family: 'Inter', sans-serif; font-size: 16px;}
-.placeholder { font-family: 'Inter', sans-serif; font-size: 16px; color: #9E9A9A;}
+.menu {font-family: 'Inter-Regular', sans-serif; font-size: 16px; text-transform: uppercase;}
+.normal {font-family: 'Inter-Regular', sans-serif; font-size: 16px;}
+.placeholder { font-family: 'Inter-Regular', sans-serif; font-size: 16px; color: #9E9A9A;}
