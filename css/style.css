@@ -89,6 +89,6 @@ a {color: #FFFFFF; text-decoration: none;}
 footer{height: 97px; display: flex; align-items: center; justify-content: space-between; background-color: #384001;}
 #lista-footer {margin-left: 70px;}
 footer ul li {display: inline-block; margin-right: 45px; color: #A3A658;}
-#redes-sociales {display: flex; justify-content: space-between; align-items: center; color: #A3A658;}
+#redes-sociales {margin-right: 30px; display: flex; justify-content: space-between; align-items: center; color: #A3A658;}
 #redes-sociales img {margin-left: 10px; margin-right: 10px;}
 footer li:hover {color: #FFFF00;}
