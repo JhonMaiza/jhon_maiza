@@ -1,2 +1,2 @@
 ﻿# jhon_maiza
- ## Practica del curso de Aplicaciones Web.
+Practica del curso de Aplicaciones Web.
